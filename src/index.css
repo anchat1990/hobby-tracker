@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tile {
+  background-color: khaki;
+  height: 200px;
+  min-width: 200px; /* because of flex*/
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  color: #555050;
+  font-weight: 500;
+  font-family: monospace;
+  font-size: x-large;
+}
